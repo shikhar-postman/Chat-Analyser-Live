@@ -270,7 +270,7 @@ def daily_timeline(df,selected_user,report):
         st.write("Below is the Week Activity chart of ",selected_user)
         st.altair_chart(c, use_container_width=True)
 
-    c.save('chart.png')
+    # c.save('chart.png')
     
 
     # pdfkit.from_file('simple.html', 'out2.pdf')
@@ -345,7 +345,7 @@ def week_activity_map(df,selected_user,report):
     if f==0:
         st.write("Below is the Week Activity chart of ",selected_user)
         st.altair_chart(c, use_container_width=True)
-    c.save('week_activity_map.png')
+    # c.save('week_activity_map.png')
     # st.write(busy_day)
     # c = alt.Chart(busy_day.reset_index()).mark_line().encode(
     #     x='index:T',
@@ -464,7 +464,7 @@ def most_common_words(df,selected_user,report):
     if report==0:
         st.write("Below is the word frequency chart of ",selected_user)
         st.altair_chart(c, use_container_width=True)
-    c.save('word_chart.png')
+    # c.save('word_chart.png')
     # return most_common_df
 
 def emoji_table(df,selected_user,report):
@@ -511,7 +511,7 @@ def emoji_table(df,selected_user,report):
         st.write("Below is the emoji frequency chart of ",selected_user)   
         st.altair_chart(c, use_container_width=True)
 
-    c.save('emoji_chart.png')
+    # c.save('emoji_chart.png')
     # Horizontal stacked bar chart
     # data = pd.melt(emoji_df.reset_index(), id_vars=["index"])
     # chart = (

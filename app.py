@@ -31,7 +31,7 @@ if uploaded_file is not None:
     user_list.sort()
     user_list.insert(0, "Overall")
     selected_user = st.sidebar.selectbox("Show analysis wrt", user_list)
-    report_pdf = report.create_report(df)
+    # report_pdf = report.create_report(df)
     if st.sidebar.button("Show Analysis"):
 
         # TOP STATS CARD
