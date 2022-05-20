@@ -1,7 +1,7 @@
 # Chat-Analyser-Live
 Whatsapp Chat Analyser Webapp
 
-Live WebApp : [Website](https://chat-analyzer-live.herokuapp.com/?target=_blank)
+Live WebApp : [Website](https://chat-analyzer-live.herokuapp.com/)
 
 You need to first have the chat file in .txt format to be able to use the app.
 
