@@ -88,9 +88,8 @@ def preprocess(data):
     ### To download the created Dataframe
     temp_df = df
     temp_df.to_csv('Download.csv')
-    # st.download_button('Download CSV','Download.csv')  # Defaults to 'text/plain'
-    # with open("Download.csv",encoding="utf8") as f:
-    #     st.download_button('Download Chat CSV', f)  # Defaults to 'text/plain'
+    st.download_button('Download Chat CSV','Download.csv')  # Defaults to 'text/plain'
+    
     
     # check_dataframe(df)
     ## changing datatype of "Date" column.

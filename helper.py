@@ -196,7 +196,7 @@ def monthly_timeline(df,selected_user):
             </div>
         """,unsafe_allow_html=True)
 
-    st.write(timeline)
+    # st.write(timeline)
     st.write(f"Monthly Timeline of {selected_user}")
     fig,ax = plt.subplots()
     ax.plot(timeline['Time'], timeline['Message'],color='green')
