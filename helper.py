@@ -15,7 +15,7 @@ import seaborn as sns
 import json
 from json import dumps
 import numpy as np
-import pdfkit
+# import pdfkit
 from altair_saver import save
 from fpdf import FPDF
 import base64
